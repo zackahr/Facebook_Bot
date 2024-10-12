@@ -40,9 +40,12 @@ pip install nodriver requests
 
 ```
 .
-├── fb_bot.py                  # Main bot script
-├── post_links.txt             # File containing post links
-└── comment.txt                # File containing reply text
+├── Makefile                  # Makefile to manage project commands
+├── requirements.txt          # File listing required Python packages
+├── fb_bot.py                 # Main bot script
+├── post_links.txt            # File containing post links
+└── comment.txt               # File containing reply text
+
 ```
 
 ## Getting Started
@@ -66,7 +69,7 @@ pip install nodriver requests
    - Run the script:
 
    ```bash
-   python fb_bot.py
+   make
    ```
 
 ## Logging
