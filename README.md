@@ -9,11 +9,8 @@ This project is a Facebook bot that automatically replies to comments on specifi
 - Select and sort comments by "Newest."
 - Reply to comments based on a predefined reply text.
 - Configurable to process multiple profiles.
-- Uses Nstbrowser API to avoid Facebook tracking, including fingerprint ID and IP address.
-- Implements automatic proxy pool rotation.
-- AI for automatic CAPTCHA recognition.
-- Bypasses popular fingerprint checkers like pixelscan, BrowserLeaks, Whoer, and creepjs.
-- Compatible with Puppeteer, Playwright, and Selenium.
+- Uses Nstbrowser API to avoid Facebook tracking, including fingerprint ID and IP address ,Implements automatic proxy pool rotation, AI for automatic CAPTCHA recognition, Bypasses popular fingerprint checkers like pixelscan, BrowserLeaks, Whoer, and creepjs, Compatible with Puppeteer, Playwright, and Selenium.
+
 
 ## Read This Docs About NstBrowser
 
