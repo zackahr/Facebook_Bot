@@ -27,11 +27,6 @@ For more information, check out the official documentation: [NstBrowser Document
 ## Prerequisites
 
 - Python 3.7 or higher
-- Install the required Python packages:
-
-```bash
-pip install nodriver requests
-```
 
 ## Project Structure
 
