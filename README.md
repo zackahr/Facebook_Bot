@@ -9,8 +9,11 @@ This project is a Facebook bot that automatically replies to comments on specifi
 - Select and sort comments by "Newest."
 - Reply to comments based on a predefined reply text.
 - Configurable to process multiple profiles.
-- Uses Nstbrowser API to avoid Facebook tracking, including fingerprint ID and IP address ,Implements automatic proxy pool rotation, AI for automatic CAPTCHA recognition, Bypasses popular fingerprint checkers like pixelscan, BrowserLeaks, Whoer, and creepjs, Compatible with Puppeteer, Playwright, and Selenium.
-
+- Uses Nstbrowser API to avoid Facebook tracking, including fingerprint ID and IP address.
+- Implements automatic proxy pool rotation.
+- AI for automatic CAPTCHA recognition.
+- Bypasses popular fingerprint checkers like pixelscan, BrowserLeaks, Whoer, and creepjs.
+- Compatible with Puppeteer, Playwright, and Selenium.
 
 ## Read This Docs About NstBrowser
 
@@ -27,6 +30,11 @@ For more information, check out the official documentation: [NstBrowser Document
 ## Prerequisites
 
 - Python 3.7 or higher
+- Install the required Python packages:
+
+```bash
+pip install nodriver requests
+```
 
 ## Project Structure
 
@@ -37,7 +45,6 @@ For more information, check out the official documentation: [NstBrowser Document
 ├── fb_bot.py                 # Main bot script
 ├── post_links.txt            # File containing post links
 └── comment.txt               # File containing reply text
-
 ```
 
 ## Getting Started
@@ -58,10 +65,16 @@ For more information, check out the official documentation: [NstBrowser Document
 
 4. **Run the bot**:
    - Make sure you have your cookies and post links ready.
-   - Run the script:
+   - Use the provided `Makefile` to install dependencies and run the bot:
 
    ```bash
    make
+   ```
+
+5. **Clean up Python cache files** (optional):
+
+   ```bash
+   make clean
    ```
 
 ## Logging
